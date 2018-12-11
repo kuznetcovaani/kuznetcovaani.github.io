@@ -1,0 +1,47 @@
+.border-container{
+    border:1px solid red;
+}
+.border-row{
+    border:1px solid blue;
+}  
+.border-st{
+    border:1px solid green;
+}          
+/*ВЫСОТА МЕНЮ*/
+.top-menu{
+    height:30px;
+}
+.drophover:hover > .dropdown-menu{ 
+display: block; 
+margin: 0; 
+
+}
+.wer{
+	width: 40px;
+}
+.st{
+	margin-bottom:5%;
+}
+.author{
+	padding-right:10%; 
+	margin-top: 2%;
+	margin-bottom:5%;
+}
+.fotocar{
+	width: 65%;
+	height: 65%;
+}
+.car{
+	margin-top: 30px;
+}
+.i{
+	padding-top: 2%;
+	padding-right:10px;
+	padding-left:10px;
+}
+.cur{
+	font-family: cursive;
+}
+.dv{
+	text-align: center;
+}

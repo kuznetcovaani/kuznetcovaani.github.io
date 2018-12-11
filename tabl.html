@@ -1,0 +1,181 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+  <title>Задание 3 </title>
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+  <link href="css/dopstyle.css" rel="stylesheet" media="screen">  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+</head>
+<body>
+ <div class="container border-container"> 
+  <style>
+  li {
+    list-style-type: none;
+  }
+</style>
+<li class="nav-item dropdown drophover wer" > 
+  <a class="nav-link dropdown-toggle" href="works.html" role="button" aria-haspopup="true" aria-expanded="false">Меню</a> 
+  <div class="dropdown-menu"> 
+    <a class="dropdown-item" href="cat.html">Кот</a>
+    <div class="dropdown-divider"></div> 
+    <a class="dropdown-item" href="math.html">Формулы</a> 
+    <div class="dropdown-divider"></div>
+    <div class="dropdown-divider"></div> 
+    <div class="btn-group dropright drophover"> 
+      <a class="dropdown-toggle dropdown-item" style="cursor: pointer;" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
+        Выпадающий список 
+      </a> 
+      <div class="dropdown-menu"> 
+        <a class="dropdown-item" href="main.html">Главная</a>
+        <div class="dropdown-divider"></div> 
+        <a class="dropdown-item" href="задание 3.1.html">Стихи</a>
+        <div class="dropdown-divider"></div> 
+        <a class="dropdown-item" href="tabl.html">Таблицы</a> 
+      </div> 
+    </div> 
+  </div> 
+</li>
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="main.html"><span class="glyphicon glyphicon-star"></span> Главная</a></li>
+        <li><a href="задание 3.1.html"><span class="glyphicon glyphicon-pencil"></span> Стихи</a></li>
+        <li  class="active"><a href="tabl.html"><span class="glyphicon glyphicon-th"></span> Таблицы</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<ol class="breadcrumb">
+  <li><a href="main.html">Главная</a></li>
+  <li class="active">Таблицы</li>
+</ol>
+<div class="row border-row" >
+ <div class="col-md-4 col-sm-12 col-xs-12 table-responsive border-st ">
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Предметы для зачёта</th>
+        <th>Предметы для экзамена</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Английский язык</td>
+        <td>Введение в ВЕБ-ппрограммирование</td>
+      </tr>
+      <tr>
+        <td>БЖД</td>
+        <td>ЯиМПД</td>
+      </tr>
+      <tr>
+        <td>Физическая культура</td>
+        <td>Основы информатики</td>
+      </tr>
+      <tr>
+        <td>Основы комбинаторики</td>
+        <td>Python</td>
+      </tr>
+      <tr>
+        <td>Математический анализ</td>
+        <td> </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div class="col-md-4 col-sm-12 col-xs-12 table-responsive border-st"  >
+  <table class="table table-hover table-bordered">
+    <thead>
+      <tr>
+        <th>Имя</th>
+        <th>Фамилия</th>
+        <th>Оценка</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Вася</td>
+        <td>Пупкин</td>
+        <td><span class="label label-success">5</span></td>
+      </tr>
+      <tr>
+        <td>Вячеслав</td>
+        <td>Иванов</td>
+        <td>	<span class="label label-warning">3</span></td>
+      </tr>
+      <tr>
+        <td>Петя</td>
+        <td>Петухов</td>
+        <td>	<span class="label label-warning">3</span></td>
+      </tr>
+      <tr>
+        <td>Сергей</td>
+        <td>Лёвин</td>
+        <td><span class="label label-success">5</span></td>
+      </tr>
+      <tr>
+        <td>Денис</td>
+        <td>Смирнов</td>
+        <td><span class="label label-success">5</span></td>
+      </tr>
+    </tbody>
+  </table>
+  
+</div>
+<div class="col-md-4 col-sm-12 col-xs-12 table-responsive border-st ">
+ <table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Имя</th>
+      <th>Фамилия</th>
+      <th>Любимый цвет</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr bgcolor="Red">
+      <td>Ангелина</td>
+      <td>Сидорова</td>
+      <td>Красный</td>
+    </tr>
+    <tr bgcolor="LightPink">
+      <td>Анна</td>
+      <td>Смирнова</td>
+      <td>Розовый</td>
+    </tr>
+    <tr bgcolor="SteelBlue">
+      <td>Юлия</td>
+      <td>Наличная</td>
+      <td>Синий</td>
+    </tr>
+    <tr bgcolor="SeaGreen">
+      <td>Александра</td>
+      <td>Савченко</td>
+      <td>Зелёный</td>
+    </tr>
+    <tr bgcolor="SkyBlue">
+      <td>Екатерина</td>
+      <td>Ванскова</td>
+      <td>Голубой</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>	
+
+
+
+<script src="http://code/jquery.com/jquery.min.js"></script>
+<script src="css/bootstrap.js"></script>
+</body>
+</html>
